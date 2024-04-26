@@ -1,0 +1,15 @@
+# pip install  matplotlib numpy pandas shapely -i https://pypi.tuna.tsinghua.edu.cn/simple
+#! pip install  -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# typing>=3.7.0  # 如果项目运行在 Python 3.7 或更高版本，这个库是不必要的
+# ######### no version #########
+matplotlib 
+numpy   
+pandas 
+shapely
+tqdm
+
+# ######### specific version #########
+lxml==4.9.3
+scipy==1.11.2
+# six==1.16.0
+# sortedcontainers==2.4.0
