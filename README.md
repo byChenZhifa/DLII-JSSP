@@ -1,2 +1,131 @@
 # DLII-JSSP
-Code for "Fast Sampling Trajectory Planning Using Dual-Layer Probabilistic Lane Intention Prediction for Urban Intersections" .
+
+Code for "Fast Sampling Trajectory Planning with Dual-Layer Probabilistic Lane Intention Prediction for Urban Intersections" .
+
+
+
+
+
+## Introduction
+
+TODO:
+
+-  paper introduction
+
+
+
+## 1.Set up your virtual environment
+
+> TODO
+
+
+
+
+
+## 2.Preparation
+
+
+
+### 2.1 Download the code and data
+
+
+
+- Clone this repo from the GitHub.
+
+```bash
+ git clone git@github.com:byChenZhifa/DLII-JSSP.git
+```
+
+- Download the all scenarios data [[here](https://github.com/byChenZhifa/DLII-JSSP.git)] and save it to project directory `./data_scenarios ` .
+
+```bash
+ cd DLII-JSSP
+ mkdir data_scenarios
+```
+
+3. run.
+
+
+
+
+
+### 2.2 Suggested structure for the project code
+
+>  TODO
+
+
+
+## 3. Our test results
+
+Note: This framework initiates with a **high-layer inference for the target road** and subsequently **refines this prediction for the target lane**. 
+
+<img src="./test_results/Fig.%202.%20Schematic%20diagram%20of%20dual-layer%20intention%20inference%20for%20road%20layer%20and%20lane%20layer.png" style="zoom:17%;" />
+
+Fig. 2. Schematic diagram of dual-layer intention inference for road layer and lane layer
+
+<img src="./test_results/fig4-Cartesian frame to Frenet frame.png" style="zoom:23%;" />
+
+**Fig. 4.**  Schematics on the conversion from Cartesian frame to Frenet frame.
+
+
+
+<img src="./test_results/fig-6.png" style="zoom:23%;" />
+
+**Fig. 6.** Multiple Lane Centerline Models based on Lane Frenet States inside One Road
+
+
+
+### 3.1 More results for trajectory predictor
+
+ 
+
+- Test scenario :7_28_1_89, vehicle #4 turn left test using two method. (CVCYR, Our predictor with IMM) 
+
+
+
+
+
+- Test scenario :8_2_1_563,  vehicle #8  going straight and changing lanes.(CVCYR, Our predictor with IMM) 
+
+  
+
+
+
+![image-20240426202932398](./test_results/LANE_INTENTION_INFERENCE-8_2_1_563.gif)
+
+- Test scenario :8_3_1_54,  vehicle # 3 turn right.(CVCYR, Our predictor with IMM) 
+
+ 
+
+### 3.2 More results for trajectory planner
+
+Note: Some results of trajectory planning using predefined linear strategies .
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Contact us
+
+If you have any issues with the code, please contact to this email: [chenzhifa@buaa.edu.cn](chenzhifa@buaa.edu.cn)
+
+
+
+
+
+## Citation
+
+If you find our work useful for your research, please consider citing the paper.
+
+> TODO
+
+
+
