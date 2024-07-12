@@ -1,15 +1,16 @@
-# pip install  matplotlib numpy pandas shapely -i https://pypi.tuna.tsinghua.edu.cn/simple
-#! pip install  -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-# typing>=3.7.0  # 如果项目运行在 Python 3.7 或更高版本，这个库是不必要的
-# ######### no version #########
+# Note: When creating requirements.txt, 
+# it is a recommended practice to indicate the version range of the library rather than a specific fixed version number.
+
+#! pip install  -r requirements.txt
+#! or [in China] pip install  -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# ######### No version specified #########
 matplotlib 
 numpy   
 pandas 
 shapely
 tqdm
 
-# ######### specific version #########
-lxml==4.9.3
-scipy==1.11.2
-# six==1.16.0
-# sortedcontainers==2.4.0
+# ######### Has version specified #########
+lxml>=4.9.3
+scipy>=1.11.2
+imageio>=2.0.0  # generate gif

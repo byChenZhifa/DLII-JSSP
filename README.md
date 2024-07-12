@@ -5,7 +5,7 @@
 
 > This repo is the implementation of the following paper: 
 >
-> "Efficient Sampling-based Trajectory Planning with Dual-Layer Probabilistic Intention Prediction for Autonomous Driving in Complex Intersections" 
+> **"Efficient Sampling-based Trajectory Planning with Dual-Layer Probabilistic Intention Prediction for Autonomous Driving in Complex Intersections"** 
 >
 > 
 >
@@ -25,7 +25,27 @@
 
 ## 1. Set up your virtual environment
 
-> TODO
+- Create a virtual environment using conda (python3.9)
+
+  ```bash
+  conda create -n dlii python=3.9
+  ```
+
+- Activate the virtual environment
+
+  ```bash
+  conda activate dlii
+  ```
+
+- Install python dependency packages via pip. Open the project directory as follows ` ../setup/requirements.txt `, install dependency package.
+
+  ```bash
+  pip install -r setup/requirements.txt
+  # Speed up (use pip source in China)
+  pip install -r setup/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+  ```
+
+  
 
 ## 2. Preparation
 
