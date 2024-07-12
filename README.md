@@ -3,19 +3,31 @@
 
 # DLII-JSSP
 
-Code for "Fast Sampling Trajectory Planning with Dual-Layer Probabilistic Lane Intention Prediction for Urban Intersections" .
+> This repo is the implementation of the following paper: 
+>
+> "Efficient Sampling-based Trajectory Planning with Dual-Layer Probabilistic Intention Prediction for Autonomous Driving in Complex Intersections" 
+>
+> 
+>
+> *The open-source code will be published here.*
+>
+> #### To-Do List
+>
+> - Results [Completed]
+> - Datasets [Completed]
+> - Code [In Progress]
 
-## Introduction
+ 
 
-TODO:
+## 0. Introduction
 
-- paper introduction
 
-## 1.Set up your virtual environment
+
+## 1. Set up your virtual environment
 
 > TODO
 
-## 2.Preparation
+## 2. Preparation
 
 ### 2.1 Download the code and data
 
@@ -26,6 +38,9 @@ TODO:
 ```
 
 - Download the all scenarios data [[here](https://github.com/byChenZhifa/DLII-JSSP.git)] and save it to project directory `./data_scenarios` .
+
+  - 8 scenes demo: `scenes_demo(8 for planning ablation study).zip`
+  -  all the intersection scenes:  `scenes_all(800).tar.xz`
 
 ```bash
  cd DLII-JSSP
@@ -119,3 +134,15 @@ If you have any issues with the code, please contact to this email: [chenzhifa@b
 If you find our work useful for your research, please consider citing the paper.
 
 > TODO
+
+## reference
+
+- https://github.com/SS47816/fiss_plus_planner
+- 
+
+
+
+
+
+
+
