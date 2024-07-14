@@ -131,7 +131,7 @@ if __name__ == "__main__":
 
                     time_list.append(end_time - start_time)
                     time_step = len(time_list)
-                    print(f"###log### time step:{time_step}/{final_time_step},{method_local_planner} planning用时:{end_time - start_time}\n")
+                    print(f"###log### time step:{time_step}/{final_time_step},{method_local_planner} planning time:{end_time - start_time}\n")
 
                     if parameters["sim_config"]["ego_update_mode"] == "kinematics":
                         # Motion control part, path tracker, calculating front wheel Angle
